@@ -1,0 +1,31 @@
+@font-face {
+    font-family: InterRegular;
+    src: url('../font/Inter-Regular.otf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url('../font/Inter-Bold.otf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: InterMedium;
+    src: url('../font/Inter-Medium.otf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+.primary-bg {
+    background: #07345C;
+}
+
+.second-bg {
+    background: #E54335;
+}
+
+.white-cl {
+    color: #FFFFFF;
+}

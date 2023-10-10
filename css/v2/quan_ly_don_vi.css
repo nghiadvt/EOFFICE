@@ -1,0 +1,58 @@
+.content-docs {
+    max-width: 50px;
+    text-align: center;
+  }
+  .num-docs {
+    max-width: 40px;
+    text-align: center;
+  }
+  .ma-dv {
+    max-width: 100px;
+    padding: 0 5px;
+  }
+  .s-email {
+    max-width: 250px;
+  }
+  .s-role {
+    width: 180px;
+  }
+  .items{
+    text-align: center;
+  }
+  .tbs{
+    padding:0 40px;
+  }
+  .titles{
+    padding: 0 13px;
+  }
+  .links{
+    margin-left: -28px;
+    margin-top: -10px;
+  }
+  .name{
+    text-align: center;
+    width: 310px;
+  }
+  .name_dv{
+    text-align: center;
+    width: 280px;
+  }
+  .name_dc{
+    text-align: center;
+    width: 250px;
+  }
+  .hd{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    /* max-width: 150px; */
+  }
+  .vbdv{
+    inset: 0px auto;
+    transform: translate(0px, 21px);
+    left: -128px;
+  }
+  .name_dchi{
+    max-width: 500px !important;
+    text-align: center;
+  }

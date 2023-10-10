@@ -1,0 +1,335 @@
+/* cây luân chuyển */
+.process-thread .thread-modal .modal-status-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #D9D9D9;
+    margin-right: 4px;
+    border-radius: 4px;
+}
+
+.process-thread .thread-modal .modal-footer .modal-item {
+    width: 115px;
+}
+
+.process-thread .thread-modal .icon1 {
+    background-color: #E8A849;
+}
+
+.process-thread .thread-modal .icon2 {
+    background-color: #38B73D;
+}
+
+.process-thread .thread-modal .icon3 {
+    border: 2px;
+    border-style: dashed;
+}
+
+.process-thread .thread-modal .modal-item-title {
+    margin-right: 8px;
+}
+
+.item-chutri {
+    border: 2px dashed #000 !important;
+}
+
+.item-chuaxuly {
+    background: #e0e0e0 !important;
+}
+
+.item-dangxuly {
+    background: #fbac41 !important;
+}
+
+.item-daxuly {
+    background: #35aa47 !important;
+}
+
+.item-daxuly span {
+    color: #fff !important;
+}
+
+/* form filter */
+.form-filter {
+    margin-bottom: 20px;
+}
+
+.process-thread .form-filter .form-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.process-thread .form-filter .form-item>span {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+/* form input */
+.process-thread .form-input .form-item {
+    display: flex;
+}
+
+.process-thread .form-input .form-item-l {
+    width: 150px;
+}
+
+.process-thread .form-input .form-item-c {
+    flex: 1;
+}
+
+.trung-lich {
+    background: #ffe9e9;
+}
+
+.process-thread a.list-group-item,
+.process-thread a.list-group-item:hover,
+.process-thread a.list-group-item:focus {
+    border-radius: 0 !important;
+}
+
+.listtree .ulsub {
+    float: left;
+    background: url(../../img/grey15.jpg) no-repeat left top 16px;
+    padding-left: 15px;
+    margin-left: 5px;
+}
+
+.listtree .title {
+    background: #e0e0e0;
+    padding: 10px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.listtree .ulsub li:first-child {
+    background: url(../../img/white16.jpg) no-repeat left top, url(../../img/grey.jpg) repeat-y left top 12px, url(../../img/arow.jpg) no-repeat left top 12px;
+    padding-left: 25px;
+}
+
+.listtree .ulsub li {
+    background: url(../../img/grey.jpg) repeat-y left, url(../../img/arow.jpg) no-repeat left top 12px;
+    padding-left: 25px;
+}
+
+.listtree .ulsub li:last-child {
+    background: url(../../img/grey18.jpg) no-repeat left top, url(../../img/white.jpg) repeat-y left top 12px, url(../../img/arow.jpg) no-repeat left top 12px;
+    padding-left: 25px;
+}
+
+.listtree ul {
+    display: inline;
+    list-style: none;
+}
+
+.listtree ul li {
+    padding-bottom: 5px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.listtree .title span {
+    font-size: 12px;
+    color: #919191;
+}
+
+.listtree .title.item-dangxuly span {
+    color: #333;
+}
+
+.listtree .ulsub li.first {
+    background: url(../../img/arow.jpg) no-repeat left top 12px !important;
+    padding-left: 25px;
+}
+
+.listtree .green {
+    background: #35aa47;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.listtree .green span {
+    color: #B9DDBE !important;
+}
+
+.listtree .doxem {
+    background: #02c5b7;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.listtree .doxem span {
+    color: #B9DDBE !important;
+}
+
+.listtree .anh {
+    background-image: url(../../img/dot.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 12px;
+    width: 15px;
+    height: 15px;
+    margin-left: -3px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.listtree .greenbold {
+    background: #35aa47 !important;
+    color: #f05a28 !important;
+    border-radius: 5px;
+}
+
+.listtree .greenbold span {
+    color: #B9DDBE !important;
+}
+
+.listtree .yellow {
+    background: #3F8896 !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.color_vbgui {
+    color: blue;
+}
+
+.custom-select {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    --webkit-appearance: none;
+}
+
+.process-thread .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.process-thread .bd-example-row .row>[class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.process-thread .col-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.bg_luanchuyen {
+    background: #f1f1f2 !important
+}
+
+.pd-t20 {
+    padding-top: 20px;
+}
+
+.mg-t20 {
+    margin-top: 20px;
+}
+
+.process-thread .luonglc:hover {
+    text-decoration: none;
+}
+
+.process-thread .btnLuanChuyen {
+    color: black !important;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #e6f3ff !important;
+    margin-right: 1px;
+    text-decoration: none;
+    padding: 9px 9px 10px 9px;
+    border: none;
+}
+
+.process-thread .imgLC {
+    width: 17px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+
+.lh36 {
+    line-height: 36px;
+}
+
+.dp_block {
+    list-style-type: none;
+    padding: 0px;
+    display: block !important;
+}
+
+.dp_none {
+    list-style-type: none;
+    padding: 0px;
+    display: none !important;
+}
+
+.colorblu {
+    color: blue !important;
+}
+
+.badge {
+    position: absolute;
+    margin-left: 0.2rem;
+    top: 0.2rem;
+    font-weight: 400;
+    font-size: 9px;
+    padding: 4px;
+    background-color: #d75252;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+#badges {
+    position: absolute;
+    margin-left: -0.8rem !important;
+    top: 0.5rem !important;
+    font-weight: 400;
+    font-size: 9px;
+    padding: 4px;
+    background-color: #d75252;
+    border-radius: 40%;
+    color: white;
+}
+
+.w10_pt {
+    width: 10%;
+}
+
+.dp {
+    display: none;
+}
+
+/*//csroll*/
+.cursor {
+    cursor: pointer;
+}
+
+.li-flex {
+    display: flex;
+}
+
+.one-child>li {
+    background: url(../../img/arow.jpg) no-repeat left top 12px !important;
+}

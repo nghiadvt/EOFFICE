@@ -1,0 +1,247 @@
+.body-content {
+    background: var(--website-dark-mode-f-0-f-3-ff, #F0F3FF);
+    padding: 10px 32px;
+	font-size: 14px;
+}
+.content-decree-document>h4 {
+    text-align: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.content-decree-document {
+    margin: 24px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.required {
+    color: red;
+}
+.content-decree-document .label {
+    font-weight: 600;
+    padding: 40px 0 12px;
+}
+
+.content-decree-document textarea {
+    margin-left: 12px;
+}
+
+.form-item-l {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Upload file */
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+#upload{
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 2rem 1.5rem;
+	text-align: center;
+	border-radius: 7px;
+	border: 3px dashed #eee;
+	box-sizing: border-box;
+	transition: all .2s ease;
+	user-select: none;
+	color: #5f6982;
+    background: var(--website-dark-mode-f-5-f-5-f-5, #F5F5F5);
+}
+
+#upload:hover{
+	border-color: #125BAC;
+}
+
+#file-upload{
+	display: none;
+}
+
+.error-file{
+	display: none;
+	color: red;
+	margin-bottom: 5px;
+}
+.error {
+	color: red;
+}
+
+.warning-file{
+	display: none;
+	color: orange;
+	margin-bottom: 5px;
+}
+
+.files{
+	display: block;
+}
+
+.files .file-thumb{
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.files .file-thumb .fa-circle-xmark{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: red;
+	margin: 3px;
+    padding: 4px;
+    
+}
+
+.files .progress{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.files .progress .fill{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: width 0.2s ease;
+}
+
+.files .progress .value{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.files .file-thumb .status{
+	position: absolute;
+	height: 1em;
+	width: 1em;
+	border-radius: 2px;
+	border: 1px solid black;
+	background-color: white;
+	bottom: -0.3em;
+	right: -0.3em;
+	color: green;
+}
+
+.message {
+	color: #000;
+	font-weight: 600;
+}
+#icon{
+	display: none;
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+.hover{
+	border: 3px solid #454cad !important;
+	box-shadow: inset 0 0 0 6px #eee;
+}
+
+.hover #icon{
+	transform: scale(0.8);
+	opacity: 0.3;
+}
+
+#btn{
+	display: inline-block;
+	background-color: #125BAC;
+	color: white;
+	padding: 8px 12px;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+#upload-btn{
+	display: none;
+	color: white;
+	height: 3em;
+	width: 15em;
+	border-radius: 5px;
+	background-color: #125BAC;
+}
+
+#upload-btn:focus{
+	outline: none;
+}
+
+/*style rules for the page*/
+#multi-file-upload{
+	text-align: center;
+	/* margin: auto 25%; */
+}
+.filename {
+    background: #fff;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid var(--website-dark-mode-d-6-d-6-d-6, #D6D6D6);
+    background: var(--website-dark-mode-white, #FFF);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+    padding: 12px;
+}
+.form-item-l {
+	display: flex;
+	justify-content: space-between;
+	white-space: nowrap;
+}
+
+@media screen and (max-width:736px){
+    .body-content {
+        padding: 0;
+    }
+    .content-decree-document {
+        margin: 0;
+        padding: 16px;
+    }
+    .content-decree-document>h4 {
+        margin-top: 30px;
+        text-align: left;
+    }
+	.content-decree-document .label {
+		font-weight: 600;
+		padding: 29px 0 12px;
+	}
+	#btn {
+		display: block;
+	}
+	.breadcrumbs-link {
+		display: none;
+	}
+}
+
+/* Select2 type, urgency, field */
+.chosen-container-single .chosen-single,
+.chosen-container-multi .chosen-choices li.search-field input[type="text"]  {
+	border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 2px 14px;
+    font-size: 16px;
+    height: 38px;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	width: 300px !important;
+}

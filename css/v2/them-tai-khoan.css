@@ -1,0 +1,15 @@
+
+.name{
+    padding-top: 25px;
+}
+.form-item-name{
+
+    padding-top : 8px;
+    width: 15%;
+}
+.form-item-checkbox{
+    width: 600px !important;
+    padding-left: 80px;
+}
+
+
